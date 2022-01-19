@@ -239,4 +239,4 @@ def random_affine(img, targets=(), degrees=(-10, 10), translate=(.1, .1), scale=
         targets = targets[i]
         targets[:, 1:5] = xy[i]
 
-    return imw, targetså
+    return imw, targetsa
